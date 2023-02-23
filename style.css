@@ -1,5 +1,11 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 header{
 	background-color: #0020F4;
+	margin-bottom: 30px;
 }
 nav a{
 	text-decoration:none;
@@ -10,15 +16,30 @@ ul,li{
 }
 .section-title{
 	color: #171717;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .section-add{
 	color: #FFFFFF;
 	background-color: #0A22F4;
+	margin-left: 600px;
+	margin-right: 600px;
 }
-h2{
+h3{
 	font-size: 16px;
 	background-color: #0A22F4;
 }
 footer{
 	background-color: #0020F4;
+	margin-top: 32px;
+}
+p{
+	color: #171717;
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+section{
+	max-width: 1195px;
+	margin: auto;
+	margin-top: -100px;
 }
